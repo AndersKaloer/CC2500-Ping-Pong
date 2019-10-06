@@ -1,12 +1,12 @@
 Arduino CC2500 Ping-Pong
 ========================
 
-This is a basic implementation of a Ping-Pong mechanism between two CC2500
+This is a basic implementation of a "Ping-Pong" mechanism between two CC2500
 devices. It is by no means bulletproof, but meant to illustrate how
 to get the TI CC2500 module up and running.
 
-It is tested on Arduino Leonardo, but is should work on any AVR
-Arduino (however, it may be necessary to change some of the pins, see
+It is tested on "Arduino Leonardo", but is should work on any AVR
+Arduino (however,it may be necessary to change some of the pins,see
 below).
 
 The default frequency is 2.408 GHz. This can be changed using the
@@ -50,8 +50,8 @@ definition in the top of the `CC2500.ino` file.
 ## KRNL
 The project requires [krnl](https://github.com/jdn-aau/krnl) which is
 a simple and lightweight kernel for the Arduino platform. Simply copy
-the `krnl.[ch]` files to a `krnl` folder in the Arduino library
-directory. _This project has been tested with commit 
+the `krnl.[ch]` files to a `krnl` folder in the "Arduino library"
+directory. _This project has been tested with "commit" 
 `99d0132490fca658780fbcb5348a30e189e5407f`._
 
 
